@@ -1,0 +1,17 @@
+{
+    "name": "andre96costa/modulo-5",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andre Costa"
+        }
+    ],
+    "require": {
+        "psr/container": "^2.0"
+    }
+}

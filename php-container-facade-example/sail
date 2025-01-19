@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+docker run --rm -it \
+    -v $PWD:/app \
+    -u $(id -u ):$(id -g) \
+    -p 80:80 \
+    composer:latest "$@"
